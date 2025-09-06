@@ -3,9 +3,10 @@ import {
   FaInstagram, 
   FaLinkedin, 
   FaEnvelope, 
-  FaTelegramPlane 
+  FaTelegramPlane, 
 } from "react-icons/fa";
 import { RiThreadsFill } from "react-icons/ri";
+import { RiShoppingBag3Line } from "react-icons/ri";
 
 function App() {
   return (
@@ -18,6 +19,16 @@ function App() {
 
       {/* Buttons */}
       <div className="w-full max-w-xs sm:max-w-sm flex flex-col gap-4">
+
+         <a 
+          href="https://arunsportfolioo.netlify.app/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 p-3 sm:p-4 bg-white rounded-lg shadow-md hover:bg-blue-50 hover:shadow-green-300 hover:scale-105 transition-all"
+        >
+          <RiShoppingBag3Line className="text-xl sm:text-2xl text-green-700" />
+          <span className="text-base sm:text-lg font-medium">My Portfolio</span>
+        </a>
 
         {/* Instagram */}
         <a 
